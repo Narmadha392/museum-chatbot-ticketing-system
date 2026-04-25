@@ -1,22 +1,30 @@
-# Museum Chatbot Ticketing System
+# 🏛️ Museum Chatbot Ticketing System
 
-## Description
-A chatbot-based ticket booking system for museums.
+## 📌 Overview
+This project is a chatbot-based ticket booking system for museums.
 
-## Features
-- Ticket booking
-- Price calculation
-- Ticket ID generation
-- Simulated payment
+Users can:
+- Book tickets
+- Check availability
+- Track ticket status
+- Get museum information
 
-## Tech Stack
-- FastAPI
-- HTML, CSS, JavaScript
+## 🛠️ Tech Stack
+- Dialogflow (Chatbot)
+- FastAPI (Backend)
+- MySQL (Database)
+- HTML, CSS, JavaScript (Frontend)
 
-## Run
+## ⚙️ Features
+- Ticket booking with chatbot
+- Unique ticket ID generation
+- Static payment simulation
+- Email confirmation
+- Multi-museum support
 
-Backend:
+## 🚀 How to Run
+
+### Backend
+```bash
+pip install -r requirements.txt
 uvicorn main:app --reload
-
-Frontend:
-Open index.html
